@@ -11,3 +11,7 @@
 ### 주간문제
 
 - [1주차] [BOJ_20057 마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)
+- **2주차** : 셋 중 하나 자유롭게
+	- [BOJ_14499 주사위 굴리기](https://www.acmicpc.net/problem/14499)
+	- [BOJ_1697 숨바꼭질](https://www.acmicpc.net/problem/1697)
+	- [BOJ_2178 미로탐색](https://www.acmicpc.net/problem/2178)
