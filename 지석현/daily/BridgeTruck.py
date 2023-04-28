@@ -1,7 +1,3 @@
-# def solution(n):
-
-
-
 def solution(bridge_length, weight, truck_weightss):
     time=0
     on_bridge=[0] * bridge_length # 다리 위의 트럭 
