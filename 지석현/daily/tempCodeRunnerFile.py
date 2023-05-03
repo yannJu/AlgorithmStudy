@@ -1,16 +1,17 @@
-###### 테스트용 파일 ######
+# def solution(s):
+#     num=""
+#     answer=""
+    
+#     numEng={'0':'zero', '1':'one', '2':'two', '3':'three', '4':'four', '5':'five', '6':'six', '7':'seven', '8':'eight', '9':'nine'}
+#     for i in range(len(s)):
+#         if s[i] in numEng:
+#             print("밸루값 기준?", s[i])
+#         else:
+#             print(s[i])
 
-n=10
+# if __name__ == "__main__":
+#     X="one4seveneight"
+#     print(solution(X))
 
-if (n**0.5)%1==0: 
-    cnt=3 # 1과 자기자신과 제곱근 제외
-    for i in range(2, int(n**0.5)):
-        if n%i==0: # 약수면
-            cnt+=2
-else:
-    cnt=2 # 1과 자기자신 제외
-    for i in range(2, int(n**0.5)+1):
-        if n%i==0: # 약수면
-            cnt+=2
-
-print(cnt)
+weeks = ['FRI',"SAT",'SUN','MON',"TUE",'WED','THU']
+print(2%7)
