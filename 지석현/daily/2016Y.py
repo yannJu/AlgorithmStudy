@@ -23,7 +23,6 @@ def solution(a, b):
         
         return weeks[temp%7-1] # 최종 요일
 
-
 if __name__ == "__main__":
     a=5
     b=24

@@ -13,18 +13,17 @@ kg=1 # number1 계산에서 빼버리기
 def count(n, limit, power):
     if (n**0.5)%1==0: 
         cnt=3 # 1과 자기자신과 제곱근 제외
-        for i in range(2, int(n**0.5)):
-            if n%i==0: # 약수면
-                cnt+=2
-            if cnt>limit:
-                return power
+        rng=int(n**0.5)
     else:
         cnt=2 # 1과 자기자신 제외
-        for i in range(2, int(n**0.5)+1):
-            if n%i==0: # 약수면
-                cnt+=2
-            if cnt>limit:
-                return power
+        rng=int(n**0.5+1)
+
+    for i in range(2, rng):
+        if n%i==0: # 약수면
+            cnt+=2
+        if cnt>limit:
+            return power
+
 
     return cnt
 
